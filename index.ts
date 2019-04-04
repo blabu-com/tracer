@@ -15,5 +15,6 @@ const tracer = initTracerFromEnv(config, { logger })
 
 let codec = new TextMapCodec({ urlEncoding: true })
 tracer.registerInjector(tracer.FORMAT_HTTP_HEADERS, codec)
+tracer.registerExtractor(tracer.FORMAT_HTTP_HEADERS, codec)
 
 export default tracer
