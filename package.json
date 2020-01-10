@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/blabu-com/tracer#readme",
   "dependencies": {
-    "@blabu.com/logger": "^1.1.0",
+    "@blabu.com/logger": "^1.4.4",
     "jaeger-client": "^3.14.4"
   },
   "devDependencies": {
